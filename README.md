@@ -20,7 +20,8 @@ https://github.com/Dian-collab/Lab7Web/blob/23bbc5f63cb1638a85a452799a7dcf621c36
  Gambar ini menunjukkan contoh lain dari bagaimana Controller dalam CodeIgniter 4 menangani permintaan web. Kali ini, URL /about telah dipetakan ke method about() di dalam Controller Page, dan output dari method tersebut adalah teks "Ini Halaman About" yang terlihat di browser. Ini semakin memperkuat pemahaman tentang bagaimana URL terhubung ke logika aplikasi melalui Controller dalam framework MVC.
  https://github.com/Dian-collab/Lab7Web/blob/30d8b458196acc4827c4bef0a4e8b27896e8f351/Screenshot%202025-04-01%20001820.png
  Gambar ini menunjukkan evolusi dalam cara aplikasi CodeIgniter menghasilkan output untuk halaman /about. Alih-alih menggunakan echo langsung dari Controller, aplikasi sekarang menggunakan mekanisme View untuk memisahkan logika aplikasi (di Controller) dari presentasi (di View). Ini adalah praktik terbaik dalam pengembangan web karena meningkatkan organisasi kode, pemeliharaan, dan fleksibilitas desain. Terdapat juga kesalahan ketik ("abot" dan "abaut" seharusnya "about") dalam data yang dikirimkan dari Controller ke View.
- 
+ https://github.com/Dian-collab/Lab7Web/blob/43e897b417d6d401630a175ff150cf0dcae0d887/Screenshot%202025-04-01%20014530.png
+ Gambar ini adalah contoh yang lebih lengkap dari arsitektur MVC dalam CodeIgniter. Controller (page.php) berinteraksi dengan Model (meskipun tidak terlihat di sini, Model akan bertanggung jawab atas pengambilan data yang lebih kompleks), mengirimkan data ke View (about.php, header.php, footer.php), dan View menggunakan data tersebut serta styling dari CSS (style.css) untuk menghasilkan tampilan halaman web yang interaktif dan menarik bagi pengguna. Adanya layout umum (header dan footer) menunjukkan praktik yang baik dalam membangun antarmuka web yang konsisten.
 
 
 
