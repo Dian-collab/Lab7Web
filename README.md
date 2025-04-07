@@ -8,6 +8,8 @@ https://github.com/Dian-collab/Lab7Web/blob/34dcc5a4ea8f9d9048b7551d8d6ca19dbc6c
 Penggunaan CLI ini sangat membantu dalam otomatisasi tugas-tugas umum dan pengelolaan proyek CodeIgniter.
 https://github.com/Dian-collab/Lab7Web/blob/4c7a7382d8e9adadb710578a5a264adeec186305/Screenshot%202025-03-17%20205839.png
 Gambar ini memberikan informasi penting tentang konfigurasi route dalam aplikasi CodeIgniter 4 
+https://github.com/Dian-collab/Lab7Web/blob/99f6b225811a13039e6705b26dbeb4a1ac0b32f9/Screenshot%202025-03-31%20221957.png
+Kehadiran pesan ini menunjukkan bahwa ada sesuatu yang salah dengan aplikasi dan tidak dapat menyelesaikan permintaan saat ini.
 
 
 
