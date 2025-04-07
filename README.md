@@ -10,6 +10,9 @@ https://github.com/Dian-collab/Lab7Web/blob/4c7a7382d8e9adadb710578a5a264adeec18
 Gambar ini memberikan informasi penting tentang konfigurasi route dalam aplikasi CodeIgniter 4 
 https://github.com/Dian-collab/Lab7Web/blob/99f6b225811a13039e6705b26dbeb4a1ac0b32f9/Screenshot%202025-03-31%20221957.png
 Kehadiran pesan ini menunjukkan bahwa ada sesuatu yang salah dengan aplikasi dan tidak dapat menyelesaikan permintaan saat ini.
+https://github.com/Dian-collab/Lab7Web/blob/23bbc5f63cb1638a85a452799a7dcf621c3654c4/Screenshot%202025-03-31%20234515.png
+ Ini adalah tampilan sederhana dari sebuah halaman web,halaman web yang diakses melalui server lokal (localhost) pada port 8080, dan halaman ini menampilkan konten atau judul "Ini Halaman About".
+ 
 
 
 
