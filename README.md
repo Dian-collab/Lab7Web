@@ -18,6 +18,8 @@ https://github.com/Dian-collab/Lab7Web/blob/23bbc5f63cb1638a85a452799a7dcf621c36
  Gambar ini adalah contoh dasar bagaimana Controller dalam framework CodeIgniter 4 menangani permintaan web dan menghasilkan respons yang ditampilkan kepada pengguna di browser.Hal ini mengilustrasikan konsep dasar Model-View-Controller (MVC) di mana Controller bertindak sebagai perantara antara model (data) dan view (tampilan), meskipun dalam contoh sederhana ini, Controller langsung menghasilkan output tanpa melibatkan model atau view terpisah.
  https://github.com/Dian-collab/Lab7Web/blob/34fdbbb58bc0f792f80dd304ac5aaae8c44922b4/Screenshot%202025-03-31%20235306.png
  Gambar ini menunjukkan contoh lain dari bagaimana Controller dalam CodeIgniter 4 menangani permintaan web. Kali ini, URL /about telah dipetakan ke method about() di dalam Controller Page, dan output dari method tersebut adalah teks "Ini Halaman About" yang terlihat di browser. Ini semakin memperkuat pemahaman tentang bagaimana URL terhubung ke logika aplikasi melalui Controller dalam framework MVC.
+ https://github.com/Dian-collab/Lab7Web/blob/30d8b458196acc4827c4bef0a4e8b27896e8f351/Screenshot%202025-04-01%20001820.png
+ Gambar ini menunjukkan evolusi dalam cara aplikasi CodeIgniter menghasilkan output untuk halaman /about. Alih-alih menggunakan echo langsung dari Controller, aplikasi sekarang menggunakan mekanisme View untuk memisahkan logika aplikasi (di Controller) dari presentasi (di View). Ini adalah praktik terbaik dalam pengembangan web karena meningkatkan organisasi kode, pemeliharaan, dan fleksibilitas desain. Terdapat juga kesalahan ketik ("abot" dan "abaut" seharusnya "about") dalam data yang dikirimkan dari Controller ke View.
  
 
 
