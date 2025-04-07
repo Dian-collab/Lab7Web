@@ -16,6 +16,8 @@ https://github.com/Dian-collab/Lab7Web/blob/23bbc5f63cb1638a85a452799a7dcf621c36
  CodeIgniter secara bawaan memiliki fitur yang disebut "Auto Routing". Fitur ini memungkinkan untuk mengakses method (fungsi) di dalam Controller tanpa harus mendefinisikannya secara eksplisit di dalam file konfigurasi routing.Jika nilai variabelnya true maka fitur AutoRouting aktif,dan jika nilai variabelnya false maka fitur AutoRouting di nonaktifkan dengan begitu kita harus mendefinisikan setiap route secara lebih eksplisit. Pada gambar diatas,meskipun mengubah nilai variabel menjadi False,kita tetap bisa mengakses halaman karna route sudah dijelaskan secara eksplisit.
  https://github.com/Dian-collab/Lab7Web/blob/6e1c9493bdebb54378768b7f91e545326708a99a/Screenshot%202025-03-31%20235228.png
  Gambar ini adalah contoh dasar bagaimana Controller dalam framework CodeIgniter 4 menangani permintaan web dan menghasilkan respons yang ditampilkan kepada pengguna di browser.Hal ini mengilustrasikan konsep dasar Model-View-Controller (MVC) di mana Controller bertindak sebagai perantara antara model (data) dan view (tampilan), meskipun dalam contoh sederhana ini, Controller langsung menghasilkan output tanpa melibatkan model atau view terpisah.
+ https://github.com/Dian-collab/Lab7Web/blob/34fdbbb58bc0f792f80dd304ac5aaae8c44922b4/Screenshot%202025-03-31%20235306.png
+ Gambar ini menunjukkan contoh lain dari bagaimana Controller dalam CodeIgniter 4 menangani permintaan web. Kali ini, URL /about telah dipetakan ke method about() di dalam Controller Page, dan output dari method tersebut adalah teks "Ini Halaman About" yang terlihat di browser. Ini semakin memperkuat pemahaman tentang bagaimana URL terhubung ke logika aplikasi melalui Controller dalam framework MVC.
  
 
 
