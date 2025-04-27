@@ -288,3 +288,7 @@ Selanjutnya refresh tampilan pada alamat http://localhost:8080/about
 
 <br>
 
+<h1 style="color: blue; font-size: 36px; text-align: center;">Praktikum 2 | PHP Framework (Codeigniter)</h1>
+
+<br>
+
