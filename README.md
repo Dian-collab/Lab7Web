@@ -53,7 +53,7 @@ Langkah ini adalah proses instalasi framework Codeigniter 4 secara manual. Frame
 - Ubah nama direktory framework-4.x.xx menjadi ci4.
 - Buka browser dengan alamat http://localhost/lab11_ci/ci4/public/
 
-![img3](assets/img/codeigniter.png)
+![img3](assets/img/1.png)
 
 <br>
 
