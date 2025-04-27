@@ -77,23 +77,23 @@ php spark
 Mode debugging memungkinkan untuk melihat pesan error secara detail. 
 - Ketik ``php spark serve`` pada CLI untuk menjalankan.
 
-![img6](assets/img/cli3.png)
+![img6](assets/img/spark.png)
 
 - Menampilkan pesan error, untuk mencobanya ubah kode file ``app/Controllers/home.php``, hapus ;nya.
   Ketik ``http://localhost:8080`` pada browser. Berikut tampilan error nya.
 
-![img8](assets/img/error_home.png)
+![img8](assets/img/6.png)
 
 - Kemudian, ubah nama file ``env`` menjadi ``.env``. Masuk ke dalam filenya, hapus tanda ``#`` pada ``CI_ENVIRONMENT =``
 
-![img9](assets/img/konfigurasi_ci.png)
+![img9](assets/img/env.png)
 
 <br>
 
 ## Struktur Direktori
 Memahami struktur direktori Codeigniter sangat penting agar tahu di mana harus menyimpan file seperti controller, model, view, dan file statis.
 
-![img11](assets/img/sdir.png)
+![img11](assets/img/folder.png)
 <br>
 
 📁 ``app/`` : 
