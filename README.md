@@ -278,11 +278,11 @@ Kemudian ubah file ``app/view/about.php`` seperti berikut.
 <p><?= $content; ?></p>
 <?= $this->include('template/footer'); ?>
 ```
-![img8](assets/img/about_view.png)
+![img8](assets/img/about.png)
 
 Selanjutnya refresh tampilan pada alamat http://localhost:8080/about
 
-![img8](assets/img/layout_view.png)
+![img8](assets/img/12.png)
 
 <br>
 
