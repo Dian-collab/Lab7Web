@@ -152,10 +152,6 @@ php spark routes
 ```
 ![img8](assets/img/5.png)
 
-Selanjutnya coba akses route yang telah dibuat dengan mengakses alamat url http://localhost:8080/about
-
-![img8](assets/img/aboutnotfound.png)
-
 <br>
 
 ## Membuat Controller
