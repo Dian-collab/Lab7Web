@@ -218,28 +218,28 @@ Selanjutnya adalah membuat view, buat file baru dengan nama ``about.php`` pada d
     </body>
 </html>
 ```
-![img8](assets/img/about_view.png)
+![img8](assets/img/about.png)
 
 Ubah ``method about`` pada class ``Controller Page`` menjadi seperti berikut:
 ```php
 public function about()
 {
     return view('about', [
-        'title' => 'Halaman About',
+        'title' => 'Halaman Abot',
         'content' => 'Ini adalah halaman abaut yang menjelaskan tentang isi halaman ini.'
         ]);
 }
 ```
 Kemudian lakukan refresh pada halaman tersebut.
 
-![img8](assets/img/iniabout.png)
+![img8](assets/img/11.png)
 
 <br>
 
 ## Membuat Layout Web dengan CSS
 Buat file css pada direktori ``public`` dengan nama ``style.css`` (copy file dari praktikum ``lab4_layout``).
 
-![img8](assets/img/css.png)
+![img8](assets/img/style.png)
 
 Kemudian buat folder template pada direktori view kemudian buat file ``header.php`` dan ``footer.php``
 ```php
