@@ -42,7 +42,7 @@ Apache klik ``Config -> PHP.ini``
 Pada bagian extention, hilangkan tanda ; (titik koma) pada ekstensi yang akan
 diaktifkan. Kemudian simpan kembali filenya dan restart Apache web server.
 
-![img2](assets/img/ekstensi_php.png)
+![img2](assets/img/13.png)
 
 <br>
 
