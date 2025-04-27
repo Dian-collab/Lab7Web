@@ -69,7 +69,7 @@ Perintah yang dapat dijalankan untuk memanggil CLI Codeigniter adalah :
 php spark
 ```
 
-![img5](assets/img/cli2.png)
+![img5](assets/img/3.png)
 
 <br>
 
