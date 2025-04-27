@@ -180,14 +180,14 @@ class Page extends BaseController
 
 Selanjutnya refresh Kembali browser, maka akan ditampilkan hasilnya yaitu halaman sudah dapat diakses.
 
-![img8](assets/img/about.png)
+![img8](assets/img/10.png)
 
 - Auto Routing
 Secara default fitur autoroute pada Codeiginiter sudah aktif. Untuk mengubah status autoroute dapat mengubah nilai variabelnya. Untuk menonaktifkan ubah nilai ``true`` menjadi ``false``.
 ```php
 $routes->setAutoRoute(true);
 ```
-![img8](assets/img/autoroute.png)
+![img8](assets/img/routes.png)
 
 Tambahkan method baru pada Controller Page seperti berikut.
 ```php
@@ -198,7 +198,7 @@ public function tos()
 ```
 Method ini belum ada pada routing, sehingga cara mengaksesnya dengan menggunakan alamat: http://localhost:8080/page/tos
 
-![img8](assets/img/controllerpage.png)
+![img8](assets/img/9.png)
 
 <br>
 
