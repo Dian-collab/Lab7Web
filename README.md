@@ -143,14 +143,14 @@ $routes->get('/contact', 'Page::contact');
 $routes->get('/faqs', 'Page::faqs');
 ```
 
-![img8](assets/img/routephp.png)
+![img8](assets/img/routes.png)
 
 Untuk mengetahui route yang ditambahkan sudah benar, buka CLI dan jalankan
 perintah berikut.
 ```
 php spark routes
 ```
-![img8](assets/img/cli_route.png)
+![img8](assets/img/5.png)
 
 Selanjutnya coba akses route yang telah dibuat dengan mengakses alamat url http://localhost:8080/about
 
