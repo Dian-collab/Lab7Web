@@ -653,7 +653,7 @@ public function add()
 <?= $this->include('template/admin_footer'); ?>
 ```
 
-![img19](assets/img/formadd.png)
+![img19](assets/img/form_add.png)
 <br>
 
 - Akses browser dengan http://localhost:8080/admin/artikel/add untuk membuat artikel ketiga, lalu `kirim`.
