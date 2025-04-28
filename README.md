@@ -402,7 +402,7 @@ View adalah bagian yang bertugas menampilkan data kepada pengguna dalam bentuk H
 <br>
 - Selanjutnya buka browser kembali, dengan mengakses url http://localhost:8080/artikel
   
-![img6](assets/img/view_artikelkosong.png)
+![img6](assets/img/portal.png)
 <br>
 
 - Masukkan data ke tabel artikel,
