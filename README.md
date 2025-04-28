@@ -413,7 +413,7 @@ View adalah bagian yang bertugas menampilkan data kepada pengguna dalam bentuk H
     teks-teks yang diacak. Ia berakar dari sebuah naskah sastra latin klasik dari era 45 sebelum masehi, hingga bisa dipastikan usianya telah mencapai lebih dari 2000 tahun.', 'artikel-kedua');
     ```
     
-![img7](assets/img/insert_artikel.png)
+![img7](assets/img/insertdata.png)
 <br>
 
 - Refresh kembali browser.
@@ -444,7 +444,7 @@ public function view($slug)
     }
 ```
   
-![img9](assets/img/detail_artikel.png)
+![img9](assets/img/artikelphp2.png)
 <br>
 
 <br>
@@ -464,7 +464,7 @@ public function view($slug)
 <?= $this->include('template/footer'); ?>
 ```
   
-![img10](assets/img/detail_php.png)
+![img10](assets/img/detail.png)
 <br>
 
 <br>
@@ -476,7 +476,7 @@ public function view($slug)
 $routes->get('/artikel/(:any)', 'Artikel::view/$1');
 ```
   
-![img11](assets/img/artikelkedua.png)
+![img11](assets/img/artikel1.png)
 <br>
 
 <br>
@@ -494,7 +494,7 @@ public function admin_index()
     }
 ```
 
-![img12](assets/img/admin_index.png)
+![img12](assets/img/artikelilll.png)
 <br>
 
 - Selanjutnya, akses kembali folder `app/Views/artikel`, buat file `admin_index.php`.
@@ -544,7 +544,7 @@ public function admin_index()
     <?= $this->include('template/admin_footer'); ?>
     ```
 
-![img13](assets/img/admin_indexphp.png)
+![img13](assets/img/adminindex.png)
 <br>
 
 - Buka folder yang ada di ``app/Views/artikel/template``, kemudian buat:
@@ -597,12 +597,12 @@ public function admin_index()
 ## Membuat Routing untuk Menu Admin
 - Terletak pada folder `app/Config`, edit file `Routes.php`.
   
-![img16](assets/img/routes_admin.png)
+![img16](assets/img/routes.png)
 <br>
 
 - Akses browser dengan http://localhost:8080/admin/artikel.
   
-![img17](assets/img/admin_artikel.png)
+![img17](assets/img/adminportal.png)
 <br>
 
 <br>
@@ -632,7 +632,7 @@ public function add()
         return view('artikel/form_add', compact('title'));
     }
 ```
-![img18](assets/img/controller_add.png)
+![img18](assets/img/artikelmodel2.png)
 <br>
 
 - Akses kembali folder `app/Views/artikel`, buat file `form_add.php`.
@@ -653,17 +653,17 @@ public function add()
 <?= $this->include('template/admin_footer'); ?>
 ```
 
-![img19](assets/img/addphp.png)
+![img19](assets/img/formadd.png)
 <br>
 
 - Akses browser dengan http://localhost:8080/admin/artikel/add untuk membuat artikel ketiga, lalu `kirim`.
 
-![img25](assets/img/view_add.png)
+![img25](assets/img/dashboard.png)
 <br>
 
 - Untuk mengeceknya ketik di url, http://localhost:8080/artikel kemudian enter.
   
-![img26](assets/img/view_add2.png)
+![img26](assets/img/addartikel.png)
 <br>
 
 <br>
