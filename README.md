@@ -718,7 +718,7 @@ public function edit($id)
 <?= $this->include('template/admin_footer'); ?>
 ```
 
-![img22](assets/img/form_edit.png)
+![img22](assets/img/formedit.png)
 <br>
 
 - Akses browser dengan http://localhost:8080/admin/artikel/edit/1 untuk Mengubah artikel pertama.
