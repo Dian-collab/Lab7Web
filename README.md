@@ -309,7 +309,7 @@ Database adalah tempat penyimpanan data aplikasi. Tabel artikel dibuat menggunak
     );
     ```
     
-![img1](assets/img/create_table.png)
+![img1](assets/img/mysql.png)
 <br>
 
 <br>
@@ -321,7 +321,7 @@ Selanjutnya membuat konfigurasi untuk menghubungkan dengan database server. Konf
 
 <br>
 
-![img2](assets/img/koneksi_db.png)
+![img2](assets/img/env.png)
 
 <br>
 
@@ -344,7 +344,7 @@ Selanjutnya adalah membuat Model untuk memproses data Artikel. Model adalah komp
   }
   ```
 
-![img3](assets/img/membuat_model.png)
+![img3](assets/img/artikelmodelphp.png)
 <br>
 
 <br>
@@ -368,7 +368,7 @@ Controller adalah komponen yang mengatur logika aplikasi dan menghubungkan model
     }
     }
   ```
-![img4](assets/img/membuat_controller.png)
+![img4](assets/img/artikelphp.png)
 <br>
 
 <br>
@@ -398,7 +398,7 @@ View adalah bagian yang bertugas menampilkan data kepada pengguna dalam bentuk H
   <?= $this->include('template/footer'); ?>
   ```
 
-![img5](assets/img/view_artikel.png)
+![img5](assets/img/indexphp.png)
 <br>
 - Selanjutnya buka browser kembali, dengan mengakses url http://localhost:8080/artikel
   
