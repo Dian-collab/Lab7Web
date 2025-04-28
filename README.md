@@ -696,7 +696,7 @@ public function edit($id)
     }
 ```
 
-![img21](assets/img/artikeledit.png)
+![img21](assets/img/artikelilll.png)
 <br>
 
 - Akses kembali folder `app/Views/artikel`, buat file `form_edit.php`.
@@ -718,7 +718,7 @@ public function edit($id)
 <?= $this->include('template/admin_footer'); ?>
 ```
 
-![img22](assets/img/editphp.png)
+![img22](assets/img/form_edit.png)
 <br>
 
 - Akses browser dengan http://localhost:8080/admin/artikel/edit/1 untuk Mengubah artikel pertama.
