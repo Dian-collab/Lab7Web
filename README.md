@@ -758,9 +758,3 @@ public function edit($id)
 <br>
 
 <br>
-
-  <div class="centered">
-    <img src="https://media.giphy.com/media/XLx9jXZXzm8Sv415Tf/giphy.gif?cid=ecf05e47hk6i4tunpqmceczwxjzujix9sxxpbjv2f4woa33v&ep=v1_stickers_search&rid=giphy.gif&ct=s" 
-         style="width: 400px; height: auto;" 
-         alt="Description"/>
-  </div>
