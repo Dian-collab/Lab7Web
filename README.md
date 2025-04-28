@@ -696,7 +696,7 @@ public function edit($id)
     }
 ```
 
-![img21](assets/img/controller_edit.png)
+![img21](assets/img/artikeledit.png)
 <br>
 
 - Akses kembali folder `app/Views/artikel`, buat file `form_edit.php`.
@@ -723,7 +723,7 @@ public function edit($id)
 
 - Akses browser dengan http://localhost:8080/admin/artikel/edit/1 untuk Mengubah artikel pertama.
   
-![img23](assets/img/edit_view.png)
+![img23](assets/img/edit.png)
 <br>
 
 <br>
@@ -739,17 +739,17 @@ public function edit($id)
     }
 ```
 
-![img24](assets/img/controller_delete.png)
+![img24](assets/img/artikeledit.png)
 <br>
 
 - Pergi ke menu admin untuk menghapusnya, http://localhost:8080/admin/artikel, kemudian pilih `hapus`.
 
-![img27](assets/img/view_delete.png)
+![img27](assets/img/dellete.png)
 <br>
 
 - Artikel berhasil dihapus.
   
-![img28](assets/img/view_delete2.png)
+![img28](assets/img/last.png)
 
 <div id="p13">
 
